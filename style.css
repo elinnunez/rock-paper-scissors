@@ -16,11 +16,9 @@ header {
     padding: 0;
     background-color: rgb(36, 28, 59);
     color: rgb(247, 236, 89);
-    /* font-weight: bold; */
-    /* font-family: 'Press Start 2P', cursive; */
-    /* font-family: 'Arbutus', cursive; */
     font-family: 'Bungee Inline', cursive;
     font-size: 25px;
+    text-align: center;
 }
 
 main {
@@ -28,40 +26,36 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-style: solid;
-    border-color: blue;
-    height: 100vh;
+    /* border-style: solid; */
+    /* border-color: blue; */
+    height: 100%;
 }
 
 .but {
-    display: inline-flex;
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
-    gap: 50px;;
-    /* align-items: center; */
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 80px; */
     /* border-style: solid; */
     /* border-color: aqua; */
 }
 
 .container {
-    /* display: flex; */
-    /* flex-direction: column; */
-    border-style: solid;
-    border-color: yellow;
+    /* border-style: solid;
+    border-color: yellow; */
     text-align: center;
     font-size: 1.5em;
     background-color: aliceblue;
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
-    /* align-self: center; */
-    /* justify-self: center; */
+    /* display: flex; */
+    flex-direction: column;
 }
 
 button {
     border-radius: 10px;
     background-color: rgb(186, 220, 243);
-    font-size: 17px;
+    font-size: 20px;
     /* border-style: solid; */
     border-color: rgb(154, 159, 228);
 }
@@ -69,4 +63,29 @@ button {
 button p {
     font-weight: bold;
     margin: 0px;
+}
+
+.choices {
+    display: flex;
+    /* border-style: solid; */
+    /* border-color: red; */
+    flex-direction: row;
+    text-align: center;
+    /* gap: ; */
+    /* padding: 10px; */
+    background-color: rgb(141, 197, 204);
+    border-radius: 20px;
+}
+
+.choices .img {
+    width: auto;
+    height: 100%;
+}
+
+.choices p {
+    font-size: 30px;
+    font-weight: bold;
+    /* border-style: solid; */
+    /* border-color: pink; */
+    font-family: 'Bungee Inline', cursive;
 }
