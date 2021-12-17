@@ -37,10 +37,10 @@ main {
     display: inline-flex;
     /* flex-direction: column; */
     /* justify-content: space-evenly; */
-    gap: 100px;;
+    gap: 50px;;
     /* align-items: center; */
-    border-style: solid;
-    border-color: aqua;
+    /* border-style: solid; */
+    /* border-color: aqua; */
 }
 
 .container {
@@ -62,8 +62,8 @@ button {
     border-radius: 10px;
     background-color: rgb(186, 220, 243);
     font-size: 17px;
-    border-style: solid;
-    border-color: coral;
+    /* border-style: solid; */
+    border-color: rgb(154, 159, 228);
 }
 
 button p {
